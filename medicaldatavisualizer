@@ -29,7 +29,7 @@ def draw_cat_plot():
     fig = graph.fig
 
     fig.savefig('catplot.png')
-@@ -33,22 +40,24 @@ def draw_cat_plot():
+
 def draw_heat_map():
     df_heat = None
     df_heat = df[(df['ap_lo'] <= df['ap_hi']) &
